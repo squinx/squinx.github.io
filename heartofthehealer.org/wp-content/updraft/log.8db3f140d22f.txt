@@ -1,0 +1,68 @@
+0000.005 () Opened log file at time: Fri, 08 Apr 2016 18:41:33 +0000 on http://dev.heartofthehealer.org
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.2 WP: 4.4.2 PHP: 5.4.16 (Linux omq 4.5.0-x86_64-linode65 #2 SMP Mon Mar 14 18:01:58 EDT 2016 x86_64) MySQL: 5.6.28 Server: Apache/2.4.6 (CentOS) mod_fcgid/2.3.9 PHP/5.4.16 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 42.1M | 42.8M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 12428 MB
+0000.007 () Restore job started. Entities to restore: plugins, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.041 () Entity: db
+0000.041 () restore_backup(backup_file=backup_2016-04-08-1816_The_Heart_of_The_Healer_750615fbfe5f-db.gz, type=db, info=a:0:{}, last_one=)
+0000.041 () Unpacking backup...
+0000.043 () Database successfully unpacked
+0000.043 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.043 () Using direct MySQL access; value of use_mysqli is: 0
+0000.045 () Tried to raise max_allowed_packet from 4 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.045 () Max packet size: 4 MB
+0000.046 () Entering maintenance mode
+0000.046 () Enabling Maintenance mode&#8230;
+0000.048 () <strong>Backup of:</strong> http://dev.heartofthehealer.org
+0000.049 () Content URL: http://dev.heartofthehealer.org/wp-content
+0000.050 () Uploads URL: http://dev.heartofthehealer.org/wp-content/uploads
+0000.050 () Old table prefix: light144_
+0000.051 () Site information: multisite=0
+0000.059 () New table prefix: light144_
+0000.080 () Restoring table (InnoDB): light144_options
+0000.341 () Restoring prior UD configuration (table: light144_options; keys: 3)
+0000.345 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.348 () Restoring table (InnoDB): light144_users
+0000.364 () Restoring table (InnoDB): light144_usermeta
+0000.395 () Restoring table (InnoDB): light144_commentmeta
+0000.415 () Restoring table (InnoDB): light144_comments
+0000.437 () Restoring table (InnoDB): light144_links
+0000.460 () Restoring table (InnoDB): light144_postmeta
+0000.712 () Restoring table (InnoDB): light144_posts
+0001.117 () Database queries processed: 50 in 1.07 seconds
+0001.145 () Restoring table (InnoDB): light144_term_relationships
+0001.506 () Restoring table (InnoDB): light144_term_taxonomy
+0001.548 () Restoring table (InnoDB): light144_termmeta
+0001.564 () Restoring table (InnoDB): light144_terms
+0001.609 () Restoring table (InnoDB): light144_em_bookings
+0001.636 () Restoring table (InnoDB): light144_em_events
+0001.666 () Restoring table (InnoDB): light144_em_locations
+0001.703 () Restoring table (InnoDB): light144_em_meta
+0001.721 () Restoring table (InnoDB): light144_em_tickets
+0001.736 () Restoring table (InnoDB): light144_em_tickets_bookings
+0001.752 () Restoring table (InnoDB): light144_et_bloom_stats
+0001.779 () Restoring table (InnoDB): light144_participants_database
+0001.876 () Restoring table (InnoDB): light144_participants_database_fields
+0001.905 () Restoring table (InnoDB): light144_participants_database_groups
+0001.923 () Restoring table (InnoDB): light144_revslider_css
+0002.000 () Restoring table (InnoDB): light144_revslider_layer_animations
+0002.018 () Restoring table (InnoDB): light144_revslider_navigations
+0002.032 () Restoring table (InnoDB): light144_revslider_sliders
+0002.039 () Database queries processed: 100 in 1.99 seconds
+0002.050 () Restoring table (InnoDB): light144_revslider_slides
+0002.091 () Restoring table (InnoDB): light144_revslider_static_slides
+0002.099 () Unlocking database and leaving maintenance mode
+0002.099 () Disabling Maintenance mode&#8230;
+0002.099 () Finished: lines processed: 108 in 2.06 seconds
+0002.100 () Cleaning up rubbish...
+0002.110 () Entity: plugins
+0002.110 () restore_backup(backup_file=backup_2016-04-08-1816_The_Heart_of_The_Healer_750615fbfe5f-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:68:"/var/www/vhosts/dev.heartofthehealer.org/httpdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=1)
+0002.111 () Unpacking backup... (backup_2016-04-08-1816_The_Heart_of_The_Healer_750615fbfe5f-plugins.zip, 20.5 Mb)
+0002.985 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.985 () Moving old data: can potentially use wp_filesystem method / -old
+0002.985 () Moving old data out of the way...
+0003.554 () Top-level entities being moved: events-manager, revslider, updraftplus, index.php, participants-database, elegant-themes-updater, bloom, regenerate-thumbnails
+0003.565 () Moving unpacked backup into place...
+0004.136 () Top-level entities being moved: events-manager, revslider, updraftplus, index.php, participants-database, elegant-themes-updater, bloom, regenerate-thumbnails
+0004.149 () Cleaning up rubbish...
+0004.166 () Restore successful!
+0004.166 () Restore successful

@@ -1,0 +1,905 @@
+0000.000 (0) Opened log file at time: Wed, 31 Aug 2016 16:33:58 -0400 on http://heartofthehealer.org
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6 PHP: 7.0.9 (Linux omq 4.5.5-x86_64-linode69 #3 SMP Fri May 20 15:25:13 EDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache/2.4.6 (CentOS) mod_fcgid/2.3.9 PHP/7.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 2M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 3334.1 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.010 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1472571354, seconds_ago=104284)
+0000.013 (0) Set semaphore last lock (fd) time to 2016-08-31 20:33:58
+0000.015 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=3f95f5643156, begun at=1472675638 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1472675938) in case this run gets aborted
+0000.031 (0) Checking if we have a zip executable available
+0000.032 (0) Testing: /usr/bin/zip
+0000.042 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.044 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.045 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.046 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.046 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.057 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.065 (0) Working binary zip found: /usr/bin/zip
+0000.067 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.068 (0) Creation of backups of directories: beginning
+0000.071 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.130 (0) Total entities for the zip file: 517 directories, 4638 files (0 skipped as non-modified), 61.4 MB
+0000.133 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.136 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.139 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.141 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.144 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.145 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 4638 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.542 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: size is now: 2.90 MB
+0000.546 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 600 files added (on-disk size: 2967.3 KB)
+0000.548 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 700 files added (on-disk size: 2967.3 KB)
+0000.550 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 800 files added (on-disk size: 2967.3 KB)
+0000.553 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 900 files added (on-disk size: 2967.3 KB)
+0000.555 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1000 files added (on-disk size: 2967.3 KB)
+0000.557 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.1 MB, 4638 files batched, 501 (1002) added so far); re-opening (prior size: 2967.3 KB)
+0001.334 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: size is now: 7.20 MB
+0001.339 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1100 files added (on-disk size: 7324.6 KB)
+0001.346 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1200 files added (on-disk size: 7324.6 KB)
+0001.349 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1300 files added (on-disk size: 7324.6 KB)
+0001.352 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1400 files added (on-disk size: 7324.6 KB)
+0001.355 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1500 files added (on-disk size: 7324.6 KB)
+0001.356 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 4638 files batched, 501 (1503) added so far); re-opening (prior size: 7324.6 KB)
+0001.469 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1600 files added (on-disk size: 8052 KB)
+0001.472 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1700 files added (on-disk size: 8052 KB)
+0001.475 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1800 files added (on-disk size: 8052 KB)
+0001.478 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 1900 files added (on-disk size: 8052 KB)
+0001.480 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2000 files added (on-disk size: 8052 KB)
+0001.481 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 4638 files batched, 501 (2004) added so far); re-opening (prior size: 8052 KB)
+0001.815 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: size is now: 10.00 MB
+0001.820 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2100 files added (on-disk size: 10290.5 KB)
+0001.822 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2200 files added (on-disk size: 10290.5 KB)
+0001.824 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2300 files added (on-disk size: 10290.5 KB)
+0001.827 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2400 files added (on-disk size: 10290.5 KB)
+0001.830 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2500 files added (on-disk size: 10290.5 KB)
+0001.831 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 4638 files batched, 501 (2505) added so far); re-opening (prior size: 10290.5 KB)
+0002.616 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: size is now: 14.90 MB
+0002.622 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2600 files added (on-disk size: 15238.9 KB)
+0002.629 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2700 files added (on-disk size: 15238.9 KB)
+0002.632 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2800 files added (on-disk size: 15238.9 KB)
+0002.635 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 2900 files added (on-disk size: 15238.9 KB)
+0002.638 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3000 files added (on-disk size: 15238.9 KB)
+0002.639 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 4638 files batched, 501 (3006) added so far); re-opening (prior size: 15238.9 KB)
+0003.019 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3100 files added (on-disk size: 17753.9 KB)
+0003.023 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3200 files added (on-disk size: 17753.9 KB)
+0003.028 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3300 files added (on-disk size: 17753.9 KB)
+0003.032 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3400 files added (on-disk size: 17753.9 KB)
+0003.037 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3500 files added (on-disk size: 17753.9 KB)
+0003.039 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 4638 files batched, 501 (3507) added so far); re-opening (prior size: 17753.9 KB)
+0003.281 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3600 files added (on-disk size: 18848 KB)
+0003.287 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3700 files added (on-disk size: 18848 KB)
+0003.295 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3800 files added (on-disk size: 18848 KB)
+0003.302 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 3900 files added (on-disk size: 18848 KB)
+0003.307 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4000 files added (on-disk size: 18848 KB)
+0003.309 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 4638 files batched, 501 (4008) added so far); re-opening (prior size: 18848 KB)
+0003.422 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4100 files added (on-disk size: 19079.2 KB)
+0003.426 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4200 files added (on-disk size: 19079.2 KB)
+0003.429 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4300 files added (on-disk size: 19079.2 KB)
+0003.432 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4400 files added (on-disk size: 19079.2 KB)
+0003.436 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4500 files added (on-disk size: 19079.2 KB)
+0003.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 4638 files batched, 501 (4509) added so far); re-opening (prior size: 19079.2 KB)
+0003.640 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip.tmp: 4600 files added (on-disk size: 22099.5 KB)
+0003.871 (0) Created plugins zip (0) - 22386.5 KB in 3.8 s (5893.3 KB/s) (SHA1 checksum: 4155a2f83437f3e75ce33e6eedc5292ad625e3f7)
+0003.874 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.883 (0) Total entities for the zip file: 54 directories, 531 files (0 skipped as non-modified), 23.9 MB
+0003.886 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.894 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.897 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.901 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.903 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.904 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.7 MB, 531 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.093 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip.tmp: size is now: 6.50 MB
+0005.172 (0) Created themes zip (0) - 7684.1 KB in 1.3 s (5925 KB/s) (SHA1 checksum: 568f3af3d98c50a9d9a4cd72e8b7a7d6ccc80d19)
+0005.175 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0005.176 (0) Looking for candidates to back up in: /var/www/vhosts/heartofthehealer.org/httpdocs/wp-content/uploads
+0005.176 (0) finding files: Nancy-graduation-photo-in-nursing-hat-1-142x180.jpg: adding to list (1)
+0005.177 (0) finding files: n-beck-yoga-sm-135x180.jpg: adding to list (2)
+0005.178 (0) finding files: Kendra-davis-with-students-horizontal-1080x675.jpg: adding to list (3)
+0005.179 (0) finding files: Despachos-bottom-button.jpg: adding to list (4)
+0005.179 (0) finding files: Judy-sp-300-1-400x284.jpg: adding to list (5)
+0005.180 (0) finding files: mesa-button-270x180.jpg: adding to list (6)
+0005.180 (0) finding files: BaxleyBanner.jpg: adding to list (7)
+0005.181 (0) finding files: Kendra-Davis-with-students-600x675.jpg: adding to list (8)
+0005.182 (0) finding files: calendar-icon-kb-150.gif: adding to list (9)
+0005.182 (0) finding files: 2015.molfer-alter-610x394.jpg: adding to list (10)
+0005.183 (0) finding files: Kendra-davis-Apacheta-768x633-510x382.jpg: adding to list (11)
+0005.183 (0) finding files: n-beck-machu-pichu-sm-400x300-400x250.jpg: adding to list (12)
+0005.184 (0) finding files: PMT-teacher-Judy-Hoaglund-2-400x284.jpg: adding to list (13)
+0005.184 (0) finding files: Nancy-graduation-photo-in-nursing-hat-1-237x300.jpg: adding to list (14)
+0005.185 (0) finding files: Judy-w-giant-plant-380-1-379x284.jpg: adding to list (15)
+0005.186 (0) finding files: Judy_llamas-4--400x284.png: adding to list (16)
+0005.186 (0) finding files: 2015-dmolder-opt-300x195.jpg: adding to list (17)
+0005.187 (0) finding files: 2015-dmolder-opt-277x180.jpg: adding to list (18)
+0005.187 (0) finding files: Machu_Picchu_early_morning-510x350.jpg: adding to list (19)
+0005.188 (0) finding files: BookCoverFront-sm.jpg: adding to list (20)
+0005.189 (0) finding files: 250-Nancy-Beck.jpg: adding to list (21)
+0005.189 (0) finding files: Community: adding to list (22)
+0005.190 (0) finding files: Nancy-Beck-PMT-Teacher-2-254x300.jpg: adding to list (23)
+0005.191 (0) finding files: Judys-PMT-group-1-400x250.jpeg: adding to list (24)
+0005.191 (0) finding files: baxley-mesa-225x300.jpg: adding to list (25)
+0005.192 (0) finding files: Kendra-davis-with-students-horizontal-325x180.jpg: adding to list (26)
+0005.193 (0) finding files: 201_moler_ceremony-opt-610x485.jpg: adding to list (27)
+0005.193 (0) finding files: Judy-PMT-teacher-1-113x180.jpg: adding to list (28)
+0005.194 (0) finding files: Judy_llamas-4--400x250.png: adding to list (29)
+0005.194 (0) finding files: Big-Cat-Habitat-Tiger-2015-610x458.jpg: adding to list (30)
+0005.195 (0) finding files: Judy_llamas-4-1-1.png: adding to list (31)
+0005.196 (0) finding files: chakanaThoth2-610x346.png: adding to list (32)
+0005.196 (0) finding files: PMT-teacher-judy2-272x180.jpg: adding to list (33)
+0005.197 (0) finding files: machu-picchu-400x250.jpg: adding to list (34)
+0005.199 (0) finding files: blue-mountains-100x50.jpeg: adding to list (35)
+0005.200 (0) finding files: Judys-PMT-group-400x284.jpeg: adding to list (36)
+0005.201 (0) finding files: Judys-PMT-group-1-960x675.jpeg: adding to list (37)
+0005.202 (0) finding files: n-beck-yoga-sm-400x250.jpg: adding to list (38)
+0005.203 (0) finding files: Judys-PMT-group-262x300.jpeg: adding to list (39)
+0005.204 (0) finding files: 2015_moler_group_opt-300x254.jpg: adding to list (40)
+0005.205 (0) finding files: nbeck-family-sm-135x180.jpg: adding to list (41)
+0005.206 (0) finding files: Peruvian-Shamanism-book-400x250.jpg: adding to list (42)
+0005.207 (0) finding files: blue-mountains-270x180.jpeg: adding to list (43)
+0005.208 (0) finding files: Judys-PMT-group-1-894x1024.jpeg: adding to list (44)
+0005.209 (0) finding files: Kendra-Davis-with-students-510x382.jpg: adding to list (45)
+0005.210 (0) finding files: 2015-dmoler-004-opt-237x180.jpg: adding to list (46)
+0005.211 (0) finding files: community-directory-logo.jpg: adding to list (47)
+0005.212 (0) finding files: machu-picchu-400x382.jpg: adding to list (48)
+0005.212 (0) finding files: blue-mountains-510x382.jpeg: adding to list (49)
+0005.213 (0) finding files: 2015.molfer-alter-510x382.jpg: adding to list (50)
+0005.214 (0) finding files: PMT-teacher-Judy-Hoaglund-2-610x405.jpg: adding to list (51)
+0005.214 (0) finding files: Kendra-Davis-with-tree-135x180.jpg: adding to list (52)
+0005.214 (0) finding files: Big-Cat-Habitat-Tiger-2015-400x250.jpg: adding to list (53)
+0005.214 (0) finding files: weekly-wisdom-banner.png: adding to list (54)
+0005.214 (0) finding files: calendar-icon-kb-orange.gif: adding to list (55)
+0005.214 (0) finding files: blue-mountains.jpeg: adding to list (56)
+0005.214 (0) finding files: 2016: adding to list (57)
+0005.214 (0) finding files: THOTHLogo512.jpg: adding to list (58)
+0005.214 (0) finding files: blue-mountains-610x407.jpeg: adding to list (59)
+0005.214 (0) finding files: Judys-PMT-group.jpeg: adding to list (60)
+0005.214 (0) finding files: 201_moler_ceremony-opt-300x238.jpg: adding to list (61)
+0005.214 (0) finding files: 2015-dmolder-opt-510x382.jpg: adding to list (62)
+0005.214 (0) finding files: Nancy-clearing-Mark-sm-300x250.jpg: adding to list (63)
+0005.214 (0) finding files: Judy-PMT-teacher-113x180.jpg: adding to list (64)
+0005.214 (0) finding files: Judy_llamas-4--256x180.png: adding to list (65)
+0005.214 (0) finding files: 2015-dmolder-opt-400x250.jpg: adding to list (66)
+0005.214 (0) finding files: 12-despacho-greer-peppermint.jpg: adding to list (67)
+0005.214 (0) finding files: IMG_1549.jpg: adding to list (68)
+0005.214 (0) finding files: Hoaglund_headshot-crop.jpg: adding to list (69)
+0005.214 (0) finding files: Sykes-Despacho-Ceremony.jpg: adding to list (70)
+0005.214 (0) finding files: Healing-Pachamama.jpg: adding to list (71)
+0005.214 (0) finding files: chakanas-THOTH-400x250.jpg: adding to list (72)
+0005.214 (0) finding files: PMT-teacher-Judy-Hoaglund-2-510x382.jpg: adding to list (73)
+0005.214 (0) finding files: PMT-teacher-judy2-400x284.jpg: adding to list (74)
+0005.214 (0) finding files: Kendra-davis-with-students-horizontal-400x284.jpg: adding to list (75)
+0005.214 (0) finding files: michelle-pauls-355.jpg: adding to list (76)
+0005.214 (0) finding files: PMT-teacher-Judy-Hoaglund-2-300x199.jpg: adding to list (77)
+0005.214 (0) finding files: nbeck-shamanic-healing-sm-1.jpg: adding to list (78)
+0005.214 (0) finding files: chakanas-THOTH-318x180.jpg: adding to list (79)
+0005.214 (0) finding files: UniversalShaman_intro_940x350.jpg: adding to list (80)
+0005.214 (0) finding files: n-beck-machu-pichu-sm-400x300-1-300x225.jpg: adding to list (81)
+0005.214 (0) finding files: Greer-rainbow.jpg: adding to list (82)
+0005.214 (0) finding files: 2015_moler_group_opt-510x382.jpg: adding to list (83)
+0005.214 (0) finding files: FB-BANNER-OSCAR-.jpg: adding to list (84)
+0005.214 (0) finding files: 10.15-Nancy-Beck-450.jpg: adding to list (85)
+0005.214 (0) finding files: shaman-global-summit-200.jpg: adding to list (86)
+0005.214 (0) finding files: Kendra-Davis-2-500x382.jpg: adding to list (87)
+0005.214 (0) finding files: THOTHLogo512-august.jpg: adding to list (88)
+0005.214 (0) finding files: Greer-Group.jpg: adding to list (89)
+0005.214 (0) finding files: Peruvian-Shamanism-book-653x1024.jpg: adding to list (90)
+0005.214 (0) finding files: daniel-baxter-slider-433x160.jpg: adding to list (91)
+0005.215 (0) finding files: chakanaThoth2-510x382.png: adding to list (92)
+0005.215 (0) finding files: daniel-baxter-slider-510x350.jpg: adding to list (93)
+0005.215 (0) finding files: 2015-moler_PMT-opt-610x406.jpg: adding to list (94)
+0005.215 (0) finding files: Peruvian-Shamanism-book-610x956.jpg: adding to list (95)
+0005.215 (0) finding files: baxley-mesa-400x284.jpg: adding to list (96)
+0005.215 (0) finding files: Kendra-davis-with-students-horizontal-1024x566.jpg: adding to list (97)
+0005.215 (0) finding files: BookCoverFront-sm-400x250.jpg: adding to list (98)
+0005.215 (0) finding files: wp_em_events_20160706_223936.csv: adding to list (99)
+0005.215 (0) finding files: Kendra-Davis-350-350x382.jpg: adding to list (100)
+0005.216 (0) finding files: 2015-dmoler-004-opt.jpg: adding to list (101)
+0005.216 (0) finding files: PMT-group-testimonials-510x315.jpg: adding to list (102)
+0005.216 (0) finding files: nbeck-apacheta-sm-400x284.jpg: adding to list (103)
+0005.216 (0) finding files: nbeck-apacheta-sm-1.jpg: adding to list (104)
+0005.216 (0) finding files: despacho-_3-greer.jpg: adding to list (105)
+0005.216 (0) finding files: apacheta-buttons-300x200.jpg: adding to list (106)
+0005.216 (0) finding files: Llamas-greer.jpg: adding to list (107)
+0005.216 (0) finding files: 2015.molfer-alter-400x284.jpg: adding to list (108)
+0005.216 (0) finding files: Judy_llamas-4-1-1-400x284.png: adding to list (109)
+0005.216 (0) finding files: n-beck-machu-pichu-sm-400x300-1-400x250.jpg: adding to list (110)
+0005.216 (0) finding files: 2015-moler_PMT-opt-300x200.jpg: adding to list (111)
+0005.216 (0) finding files: 2015-dmolder-opt-400x250-1-400x250.jpg: adding to list (112)
+0005.216 (0) finding files: greer-Chumpi-Stones.jpg: adding to list (113)
+0005.216 (0) finding files: BookCoverFront-sm-522x675.jpg: adding to list (114)
+0005.216 (0) finding files: Machu_Picchu_early_morning.jpg: adding to list (115)
+0005.216 (0) finding files: 201_moler_ceremony-opt.jpg: adding to list (116)
+0005.216 (0) finding files: 250-Nancy-Beck-250x250.jpg: adding to list (117)
+0005.216 (0) finding files: 10.15-Nancy-Beck-450-450x382.jpg: adding to list (118)
+0005.216 (0) finding files: PMT-teacher-judy2-400x250.jpg: adding to list (119)
+0005.216 (0) finding files: Big-Cat-Habitat-Tiger-2015-510x382.jpg: adding to list (120)
+0005.216 (0) finding files: community-buttons.jpg: adding to list (121)
+0005.216 (0) finding files: qollasuyu-totem.gif: adding to list (122)
+0005.216 (0) finding files: blue-lake-baxley-433x160.jpg: adding to list (123)
+0005.216 (0) finding files: Judy-w-giant-plant-380-1-379x250.jpg: adding to list (124)
+0005.216 (0) finding files: despacho-greer-river.jpg: adding to list (125)
+0005.216 (0) finding files: blue-lake-baxley-300x111.jpg: adding to list (126)
+0005.216 (0) finding files: Peruvian-Shamanism-book.jpg: adding to list (127)
+0005.216 (0) finding files: Judys-PMT-group-1-157x180.jpeg: adding to list (128)
+0005.216 (0) finding files: 2015-dmoler-004-opt-610x464.jpg: adding to list (129)
+0005.216 (0) finding files: 2015-dmolder-opt.jpg: adding to list (130)
+0005.216 (0) finding files: Kendra-Davis-2-400x250.jpg: adding to list (131)
+0005.216 (0) finding files: Kendra-Davis-350-350x250.jpg: adding to list (132)
+0005.216 (0) finding files: Judys-PMT-group-400x250.jpeg: adding to list (133)
+0005.216 (0) finding files: BaxleyBanner-433x160.jpg: adding to list (134)
+0005.216 (0) finding files: 201_moler_ceremony-opt-400x250.jpg: adding to list (135)
+0005.216 (0) finding files: Kendra-Davis-2-400x284.jpg: adding to list (136)
+0005.216 (0) finding files: Apachetas: adding to list (137)
+0005.216 (0) finding files: blue-green-meadow2-433x160.jpg: adding to list (138)
+0005.216 (0) finding files: machu-picchu-400x284.jpg: adding to list (139)
+0005.216 (0) finding files: 201_moler_ceremony-opt-227x180.jpg: adding to list (140)
+0005.216 (0) finding files: BaxleyBanner-400x284.jpg: adding to list (141)
+0005.216 (0) finding files: blue-lake-baxley-400x284.jpg: adding to list (142)
+0005.216 (0) finding files: Nancy-Radiating-Star-Being-sm-224x300.jpg: adding to list (143)
+0005.216 (0) finding files: Greer-Shamans.jpg: adding to list (144)
+0005.216 (0) finding files: Nancy-Beck-PMT-Teacher-2-318x284.jpg: adding to list (145)
+0005.216 (0) finding files: Despachos: adding to list (146)
+0005.216 (0) finding files: blue-green-meadow2-300x111.jpg: adding to list (147)
+0005.216 (0) finding files: nbeck-apacheta-sm-1-135x180.jpg: adding to list (148)
+0005.216 (0) finding files: chakanaThoth2-400x250.png: adding to list (149)
+0005.216 (0) finding files: Judy-PMT-teacher-378x284.jpg: adding to list (150)
+0005.216 (0) finding files: Judys-PMT-group-1-262x300.jpeg: adding to list (151)
+0005.216 (0) finding files: Peruvian-Shamanism-book-400x284.jpg: adding to list (152)
+0005.216 (0) finding files: Judy_llamas-4-1-1-400x250.png: adding to list (153)
+0005.216 (0) finding files: Cynthia-Greer-400.jpg: adding to list (154)
+0005.216 (0) finding files: baxley-mesa.jpg: adding to list (155)
+0005.216 (0) finding files: Judy-PMT-teacher-1-378x382.jpg: adding to list (156)
+0005.216 (0) finding files: 2015-moler_PMT-opt-400x250.jpg: adding to list (157)
+0005.216 (0) finding files: PMT-group-testimonials-400x284.jpg: adding to list (158)
+0005.216 (0) finding files: PMT-group-testimonials-610x175.jpg: adding to list (159)
+0005.216 (0) finding files: Xiamora-bell-104.jpg: adding to list (160)
+0005.216 (0) finding files: nbeck-apacheta-sm-400x250.jpg: adding to list (161)
+0005.216 (0) finding files: wp_em_events_20160706_223936-2.csv: adding to list (162)
+0005.217 (0) finding files: Judys-PMT-group-1-400x284.jpeg: adding to list (163)
+0005.217 (0) finding files: 2015-dmoler-004-opt-300x228.jpg: adding to list (164)
+0005.217 (0) finding files: AYLLU-bannerjul2016-400x250.jpg: adding to list (165)
+0005.217 (0) finding files: nbeck-family-sm.jpg: adding to list (166)
+0005.217 (0) finding files: Peruvian-Shamanism-book-510x382.jpg: adding to list (167)
+0005.217 (0) finding files: Judy_llamas-4--300x211.png: adding to list (168)
+0005.217 (0) finding files: Kendra-Davis-350-350x284.jpg: adding to list (169)
+0005.217 (0) finding files: UniversalShaman_intro_banner.jpg: adding to list (170)
+0005.217 (0) finding files: Robins-photo-2.jpg: adding to list (171)
+0005.217 (0) finding files: 2015-dmolder-opt-400x250-1-300x188.jpg: adding to list (172)
+0005.217 (0) finding files: 12.15.omq_.100.jpg: adding to list (173)
+0005.217 (0) finding files: duality-greer-despacho.jpg: adding to list (174)
+0005.217 (0) finding files: nbeck-family-sm-375x382.jpg: adding to list (175)
+0005.217 (0) finding files: n-beck-yoga-sm.jpg: adding to list (176)
+0005.217 (0) finding files: 12.15.omq_.100-2.jpg: adding to list (177)
+0005.217 (0) finding files: Judys-PMT-group-1.jpeg: adding to list (178)
+0005.217 (0) finding files: Joshua-Tree-Polishing-the-Mirror.jpg: adding to list (179)
+0005.217 (0) finding files: Peruvian-Shamanism-book-761x675.jpg: adding to list (180)
+0005.217 (0) finding files: Kendra-Davis-with-tree-225x300.jpg: adding to list (181)
+0005.217 (0) finding files: n-beck-yoga-sm-400x284.jpg: adding to list (182)
+0005.217 (0) finding files: Judys-PMT-group-510x382.jpeg: adding to list (183)
+0005.217 (0) finding files: 201_moler_ceremony-opt-510x382.jpg: adding to list (184)
+0005.217 (0) finding files: Kendra-davis-with-students-horizontal-610x337.jpg: adding to list (185)
+0005.217 (0) finding files: shaman-global-summit-200-179x180.jpg: adding to list (186)
+0005.217 (0) finding files: PMT-teacher-Judy-Hoaglund-2-271x180.jpg: adding to list (187)
+0005.217 (0) finding files: whats-new-chacana-1024.jpg: adding to list (188)
+0005.217 (0) finding files: n-beck-machu-pichu-sm-400x300-240x180.jpg: adding to list (189)
+0005.217 (0) finding files: apacheta-buttons-270x180.jpg: adding to list (190)
+0005.217 (0) finding files: Judys-PMT-group-960x675.jpeg: adding to list (191)
+0005.217 (0) finding files: amyIbiopic.jpg: adding to list (192)
+0005.217 (0) finding files: 2015-dmoler-004-opt-400x250.jpg: adding to list (193)
+0005.217 (0) finding files: Judy-w-giant-plant-380-1-231x300.jpg: adding to list (194)
+0005.217 (0) finding files: participants-database: adding to list (195)
+0005.217 (0) finding files: Kendra-Davis-350-147x180.jpg: adding to list (196)
+0005.217 (0) finding files: Judy-PMT-teacher-1.jpg: adding to list (197)
+0005.217 (0) finding files: Day-4-DSC03929-sm.jpg: adding to list (198)
+0005.217 (0) finding files: Judy-PMT-teacher-1-189x300.jpg: adding to list (199)
+0005.217 (0) finding files: Kendra-davis-Apacheta-768x633.jpg: adding to list (200)
+0005.218 (0) finding files: Kendra-davis-with-students-horizontal-1080x597.jpg: adding to list (201)
+0005.218 (0) finding files: hummingbird-side.jpg: adding to list (202)
+0005.218 (0) finding files: wp_em_events_20160706_223936-4.csv: adding to list (203)
+0005.218 (0) finding files: Big-Cat-Habitat-Tiger-2015.jpg: adding to list (204)
+0005.218 (0) finding files: 2015.molfer-alter.jpg: adding to list (205)
+0005.218 (0) finding files: Kendra-davis-with-students-horizontal-510x382.jpg: adding to list (206)
+0005.218 (0) finding files: daniel-baxter-slider-610x225.jpg: adding to list (207)
+0005.218 (0) finding files: PMT-teacher-judy2.jpg: adding to list (208)
+0005.218 (0) finding files: n-beck-yoga-sm-224x300.jpg: adding to list (209)
+0005.218 (0) finding files: 250-Nancy-Beck-250x284.jpg: adding to list (210)
+0005.218 (0) finding files: n-beck-machu-pichu-sm-400x300-1.jpg: adding to list (211)
+0005.218 (0) finding files: Greer-Machu-Picchu-Llama.jpg: adding to list (212)
+0005.218 (0) finding files: AYLLU-bannerjul2016-400x284.jpg: adding to list (213)
+0005.218 (0) finding files: 2015-dmolder-opt-400x250-1-288x180.jpg: adding to list (214)
+0005.218 (0) finding files: 2015.molfer-alter-400x250.jpg: adding to list (215)
+0005.218 (0) finding files: Kendra-davis-Apacheta-768x633-218x180.jpg: adding to list (216)
+0005.218 (0) finding files: Peruvian-Shamanism-book-115x180.jpg: adding to list (217)
+0005.218 (0) finding files: nbeck-cropped.jpg: adding to list (218)
+0005.218 (0) finding files: 250-Nancy-Beck-248x300.jpg: adding to list (219)
+0005.218 (0) finding files: UniversalShaman_intro_banner-1.jpg: adding to list (220)
+0005.218 (0) finding files: Joni-Stone-104.jpg: adding to list (221)
+0005.218 (0) finding files: Nancy-Beck-PMT-Teacher-2-318x250.jpg: adding to list (222)
+0005.218 (0) finding files: Judy-PMT-teacher-1-378x284.jpg: adding to list (223)
+0005.218 (0) finding files: Judys-PMT-group-894x1024.jpeg: adding to list (224)
+0005.218 (0) finding files: greer-apacheta2.jpg: adding to list (225)
+0005.218 (0) finding files: chakanaThoth2-300x170.png: adding to list (226)
+0005.218 (0) finding files: donOscar_Power-of-Ritual.jpg: adding to list (227)
+0005.218 (0) finding files: Big-Cat-Habitat-Tiger-2015-960x675.jpg: adding to list (228)
+0005.218 (0) finding files: Animal-quiz-300x86.jpg: adding to list (229)
+0005.218 (0) finding files: 2016-07-Lopez_headshot2.jpg: adding to list (230)
+0005.218 (0) finding files: BaxleyBanner-400x250.jpg: adding to list (231)
+0005.218 (0) finding files: youtube-32.png: adding to list (232)
+0005.218 (0) finding files: VsionQuestOct16.jpg: adding to list (233)
+0005.218 (0) finding files: AYLLU-bannerjul2016-100x50.jpg: adding to list (234)
+0005.218 (0) finding files: BookCoverFront-sm-205x300.jpg: adding to list (235)
+0005.218 (0) finding files: nbeck-cropped-123x180.jpg: adding to list (236)
+0005.218 (0) finding files: n-beck-yoga-sm-500x382.jpg: adding to list (237)
+0005.218 (0) finding files: PMT-group-testimonials-1080x309.jpg: adding to list (238)
+0005.218 (0) finding files: blue-green-meadow2-100x50.jpg: adding to list (239)
+0005.218 (0) finding files: BaxleyBanner-610x225.jpg: adding to list (240)
+0005.218 (0) finding files: community-buttons-300x200.jpg: adding to list (241)
+0005.218 (0) finding files: 10.15-Nancy-Beck-450-400x284.jpg: adding to list (242)
+0005.218 (0) finding files: Despachos-bottom-button-300x200.jpg: adding to list (243)
+0005.218 (0) finding files: blue-green-meadow2-510x350.jpg: adding to list (244)
+0005.218 (0) finding files: Kendra-Davis-2-135x180.jpg: adding to list (245)
+0005.218 (0) finding files: chakanas-THOTH-300x170.jpg: adding to list (246)
+0005.219 (0) finding files: 2015-dmolder-opt-277x180-1.jpg: adding to list (247)
+0005.219 (0) finding files: nbeck-apacheta-sm-1-400x284.jpg: adding to list (248)
+0005.219 (0) finding files: calendar-icon-kb-blu.gif: adding to list (249)
+0005.219 (0) finding files: chakanaThoth2-318x180.png: adding to list (250)
+0005.219 (0) finding files: blog-post-despacho-cynthia-greer-240x180.jpg: adding to list (251)
+0005.219 (0) finding files: Greer-despacho.jpg: adding to list (252)
+0005.219 (0) finding files: baxley-mesa-135x180.jpg: adding to list (253)
+0005.219 (0) finding files: nbeck-shamanic-healing-sm-1-400x284.jpg: adding to list (254)
+0005.219 (0) finding files: donoscar-youtube-2.jpg: adding to list (255)
+0005.219 (0) finding files: Gowan_Jnana-Website-Pic.jpg: adding to list (256)
+0005.219 (0) finding files: my-royal-hummingbird-arte-sm-300x250.jpg: adding to list (257)
+0005.219 (0) finding files: BaxleyBanner-510x350.jpg: adding to list (258)
+0005.219 (0) finding files: Sacred-Space1.jpg: adding to list (259)
+0005.219 (0) finding files: Kendra-Davis-2-225x300.jpg: adding to list (260)
+0005.219 (0) finding files: 201_moler_ceremony-opt-400x284.jpg: adding to list (261)
+0005.219 (0) finding files: 2015-dmolder-opt-277x180-1-277x180.jpg: adding to list (262)
+0005.219 (0) finding files: weekly-wisdom-banner-610x201.png: adding to list (263)
+0005.219 (0) finding files: Judy-w-giant-plant-380-1.jpg: adding to list (264)
+0005.219 (0) finding files: 2015-dmoler-004-opt-400x284.jpg: adding to list (265)
+0005.219 (0) finding files: curanderomesa-300x230-235x180.jpg: adding to list (266)
+0005.219 (0) finding files: Kendra-Davis-350-245x300.jpg: adding to list (267)
+0005.219 (0) finding files: blue-green-meadow2-400x250.jpg: adding to list (268)
+0005.219 (0) finding files: nbeck-apacheta-sm-1-225x300.jpg: adding to list (269)
+0005.219 (0) finding files: 250-Nancy-Beck-149x180.jpg: adding to list (270)
+0005.219 (0) finding files: image003.jpg: adding to list (271)
+0005.219 (0) finding files: Kendra-davis-with-students-horizontal-300x166.jpg: adding to list (272)
+0005.219 (0) finding files: Moler-headshot-250.jpg: adding to list (273)
+0005.219 (0) finding files: Kendra-Davis-2.jpg: adding to list (274)
+0005.219 (0) finding files: Stephen-dinan-book.jpg: adding to list (275)
+0005.219 (0) finding files: chakanas-THOTH-400x284.jpg: adding to list (276)
+0005.219 (0) finding files: weekly-wisdom-banner-433x143.png: adding to list (277)
+0005.219 (0) finding files: UniversalShaman_intro_rectangle.jpg: adding to list (278)
+0005.219 (0) finding files: Nancy-clearing-Mark-sm-300x382.jpg: adding to list (279)
+0005.219 (0) finding files: Valerie.jpg: adding to list (280)
+0005.219 (0) finding files: nbeck-apacheta-sm-1-400x250.jpg: adding to list (281)
+0005.219 (0) finding files: my-royal-hummingbird-arte-sm.jpg: adding to list (282)
+0005.219 (0) finding files: blue-lake-baxley-610x225.jpg: adding to list (283)
+0005.219 (0) finding files: chakanaThoth2-400x284.png: adding to list (284)
+0005.219 (0) finding files: Judy_llamas-4-1-1-300x211.png: adding to list (285)
+0005.219 (0) finding files: my-royal-hummingbird-arte-sm-300x284.jpg: adding to list (286)
+0005.219 (0) finding files: Nancy-graduation-photo-in-nursing-hat-1-288x250.jpg: adding to list (287)
+0005.219 (0) finding files: AYLLU-bannerjul2016-510x350.jpg: adding to list (288)
+0005.219 (0) finding files: qollasuyu-totem-215x382.gif: adding to list (289)
+0005.219 (0) finding files: chakanas-THOTH-610x346.jpg: adding to list (290)
+0005.219 (0) finding files: daniel-baxter-slider-300x111.jpg: adding to list (291)
+0005.219 (0) finding files: Big-Cat-Habitat-Tiger-2015-300x225.jpg: adding to list (292)
+0005.219 (0) finding files: 2015-dmolder-opt-400x284.jpg: adding to list (293)
+0005.219 (0) finding files: DSC07758-sm.jpg: adding to list (294)
+0005.219 (0) finding files: nbeck-apacheta-sm-500x382.jpg: adding to list (295)
+0005.219 (0) finding files: Kendra-davis-Apacheta-768x633-300x247.jpg: adding to list (296)
+0005.219 (0) finding files: calendar-icon-kb-200.gif: adding to list (297)
+0005.219 (0) finding files: Nancy-graduation-photo-in-nursing-hat-1.jpg: adding to list (298)
+0005.219 (0) finding files: blue-lake-baxley-510x350.jpg: adding to list (299)
+0005.219 (0) finding files: Kendra-Davis-with-tree-400x250.jpg: adding to list (300)
+0005.220 (0) finding files: Nancy-Radiating-Star-Being-sm-300x382.jpg: adding to list (301)
+0005.220 (0) finding files: greer-apacheta.jpg: adding to list (302)
+0005.220 (0) finding files: 2015.molfer-alter-300x194.jpg: adding to list (303)
+0005.220 (0) finding files: mesa-button.jpg: adding to list (304)
+0005.220 (0) finding files: Sacred-Reciprocity.jpg: adding to list (305)
+0005.220 (0) finding files: Nancy-graduation-photo-in-nursing-hat-1-288x284.jpg: adding to list (306)
+0005.220 (0) finding files: BaxleyBanner-300x111.jpg: adding to list (307)
+0005.220 (0) finding files: Judy-sp-300-1-231x300.jpg: adding to list (308)
+0005.220 (0) finding files: daniel-baxter-slider-400x284.jpg: adding to list (309)
+0005.220 (0) finding files: clay.jpg: adding to list (310)
+0005.220 (0) finding files: 2015.molfer-alter-278x180.jpg: adding to list (311)
+0005.220 (0) finding files: blue-mountains-400x284.jpeg: adding to list (312)
+0005.220 (0) finding files: blue-mountains-1024x683.jpeg: adding to list (313)
+0005.220 (0) finding files: Machu_Picchu_early_morning-610x227.jpg: adding to list (314)
+0005.220 (0) finding files: Kendra-Davis-with-tree.jpg: adding to list (315)
+0005.220 (0) finding files: baxley-mesa-400x250.jpg: adding to list (316)
+0005.220 (0) finding files: et_temp: adding to list (317)
+0005.220 (0) finding files: nbeck-shamanic-healing-sm-1-134x180.jpg: adding to list (318)
+0005.220 (0) finding files: Kendra-davis-Apacheta-768x633-610x503.jpg: adding to list (319)
+0005.220 (0) finding files: Nancy-Beck-PMT-Teacher-2.jpg: adding to list (320)
+0005.221 (0) finding files: Judy-H-pmt-group-300x217.jpg: adding to list (321)
+0005.221 (0) finding files: n-beck-machu-pichu-sm-400x300-1-400x284.jpg: adding to list (322)
+0005.221 (0) finding files: apacheta-buttons.jpg: adding to list (323)
+0005.221 (0) finding files: sami-brothers2.jpg: adding to list (324)
+0005.221 (0) finding files: PMT-group-testimonials-300x86.jpg: adding to list (325)
+0005.221 (0) finding files: Kendra-Davis-with-students-400x250.jpg: adding to list (326)
+0005.221 (0) finding files: 2015-dmolder-opt-610x396.jpg: adding to list (327)
+0005.221 (0) finding files: blog-post-despacho-cynthia-greer-300x225.jpg: adding to list (328)
+0005.221 (0) finding files: shaman-summit-shift.jpg: adding to list (329)
+0005.221 (0) finding files: 12.15.omq_.100-1.jpg: adding to list (330)
+0005.221 (0) finding files: wp_em_events_20160706_223936-1.csv: adding to list (331)
+0005.221 (0) finding files: 10.15-Nancy-Beck-450-217x300.jpg: adding to list (332)
+0005.221 (0) finding files: Kendra-Davis-with-students-135x180.jpg: adding to list (333)
+0005.221 (0) finding files: teachers: adding to list (334)
+0005.221 (0) finding files: Kendra-Davis-with-students-225x300.jpg: adding to list (335)
+0005.221 (0) finding files: Judy_llamas-4-.png: adding to list (336)
+0005.221 (0) finding files: BookCoverFront-sm-510x382.jpg: adding to list (337)
+0005.221 (0) finding files: Judy-PMT-teacher-378x250.jpg: adding to list (338)
+0005.221 (0) finding files: 2015-dmolder-opt-300x195-1-300x195.jpg: adding to list (339)
+0005.221 (0) finding files: Kendra-davis-Apacheta-768x633-400x250.jpg: adding to list (340)
+0005.221 (0) finding files: PMT-group-testimonials-433x124.jpg: adding to list (341)
+0005.221 (0) finding files: wp_em_events_20160706_223936-3.csv: adding to list (342)
+0005.221 (0) finding files: don-Oscar-Universal-Shaman-Transforming-Our-World1.jpg: adding to list (343)
+0005.221 (0) finding files: Machu_Picchu_early_morning-400x284.jpg: adding to list (344)
+0005.221 (0) finding files: Judy_llamas-4-1-1-256x180.png: adding to list (345)
+0005.221 (0) finding files: mesa-button-300x200.jpg: adding to list (346)
+0005.221 (0) finding files: Judy-H-pmt-group-249x180.jpg: adding to list (347)
+0005.221 (0) finding files: 2013: adding to list (348)
+0005.221 (0) finding files: curanderomesa-300x230-300x230.jpg: adding to list (349)
+0005.221 (0) finding files: qollasuyu-totem-215x284.gif: adding to list (350)
+0005.221 (0) finding files: Judy-w-giant-plant-380-1-379x382.jpg: adding to list (351)
+0005.221 (0) finding files: Kendra-Davis-with-tree-400x284.jpg: adding to list (352)
+0005.221 (0) finding files: Big-Cat-Habitat-Tiger-2015-240x180.jpg: adding to list (353)
+0005.221 (0) finding files: PMT-group-testimonials-1024x293.jpg: adding to list (354)
+0005.221 (0) finding files: Nancy-clearing-Mark-sm-140x180.jpg: adding to list (355)
+0005.221 (0) finding files: BookCoverFront-sm-400x284.jpg: adding to list (356)
+0005.221 (0) finding files: n-beck-machu-pichu-sm-400x300-300x225.jpg: adding to list (357)
+0005.221 (0) finding files: blue-mountains-400x250.jpeg: adding to list (358)
+0005.221 (0) finding files: Nancy-Radiating-Star-Being-sm-300x250.jpg: adding to list (359)
+0005.221 (0) finding files: PMT-group-testimonials-400x250.jpg: adding to list (360)
+0005.221 (0) finding files: PMT-teacher-judy2-300x198.jpg: adding to list (361)
+0005.221 (0) finding files: qollasuyu-totem-60x180.gif: adding to list (362)
+0005.221 (0) finding files: 10.15-Nancy-Beck-450-130x180.jpg: adding to list (363)
+0005.221 (0) finding files: Day-4-DSC03929-sm-196x180.jpg: adding to list (364)
+0005.221 (0) finding files: AYLLU-bannerjul2016-433x160.jpg: adding to list (365)
+0005.221 (0) finding files: machu-picchu.jpg: adding to list (366)
+0005.221 (0) finding files: blue-green-meadow2-400x284.jpg: adding to list (367)
+0005.221 (0) finding files: clalendar-icon-kb-100.gif: adding to list (368)
+0005.221 (0) finding files: Machu_Picchu_early_morning-300x112.jpg: adding to list (369)
+0005.221 (0) finding files: Kendra-Davis-with-students.jpg: adding to list (370)
+0005.221 (0) finding files: Judy-sp-300-1.jpg: adding to list (371)
+0005.221 (0) finding files: blue-mountains-1080x720.jpeg: adding to list (372)
+0005.221 (0) finding files: Machu_Picchu_early_morning-433x161.jpg: adding to list (373)
+0005.221 (0) finding files: Judys-PMT-group-610x698.jpeg: adding to list (374)
+0005.221 (0) finding files: 2015_moler_group_opt-213x180.jpg: adding to list (375)
+0005.221 (0) finding files: equinox-despacho-greer.jpg: adding to list (376)
+0005.221 (0) finding files: 2015-moler_PMT-opt-510x382.jpg: adding to list (377)
+0005.221 (0) finding files: Judy-PMT-teacher-189x300.jpg: adding to list (378)
+0005.221 (0) finding files: 2015_moler_group_opt-400x284.jpg: adding to list (379)
+0005.221 (0) finding files: PMT-teacher-Judy-Hoaglund-2-400x250.jpg: adding to list (380)
+0005.221 (0) finding files: Greer-group-alters.jpg: adding to list (381)
+0005.221 (0) finding files: PMT-teacher-judy2-510x382.jpg: adding to list (382)
+0005.221 (0) finding files: river.jpg: adding to list (383)
+0005.221 (0) finding files: chakanaThoth2.png: adding to list (384)
+0005.221 (0) finding files: my-royal-hummingbird-arte-sm-238x300.jpg: adding to list (385)
+0005.221 (0) finding files: whats-new-chacana.jpg: adding to list (386)
+0005.221 (0) finding files: nbeck-family-sm-375x284.jpg: adding to list (387)
+0005.221 (0) finding files: Animal-quiz.jpg: adding to list (388)
+0005.221 (0) finding files: Judy-sp-300-1-437x382.jpg: adding to list (389)
+0005.221 (0) finding files: BookCoverFront-sm-123x180.jpg: adding to list (390)
+0005.221 (0) finding files: 2015-dmolder-opt-300x195-1-277x180.jpg: adding to list (391)
+0005.221 (0) finding files: Despachos-bottom-button-270x180.jpg: adding to list (392)
+0005.222 (0) finding files: nbeck-shamanic-healing-sm-1-223x300.jpg: adding to list (393)
+0005.222 (0) finding files: Nancy-Radiating-Star-Being-sm.jpg: adding to list (394)
+0005.222 (0) finding files: blue-mountains-1080x675.jpeg: adding to list (395)
+0005.222 (0) finding files: nbeck-apacheta-sm-1-500x382.jpg: adding to list (396)
+0005.222 (0) finding files: chakanas-THOTH.jpg: adding to list (397)
+0005.222 (0) finding files: despacho-for-my-colon-surgery-sm.jpg: adding to list (398)
+0005.222 (0) finding files: PMT-teacher-Judy-Hoaglund-2.jpg: adding to list (399)
+0005.222 (0) finding files: Big-Cat-Habitat-Tiger-2015-400x284.jpg: adding to list (400)
+0005.223 (0) finding files: Judy-H-pmt-group-400x250.jpg: adding to list (401)
+0005.223 (0) finding files: n-beck-machu-pichu-sm-400x300-1-240x180.jpg: adding to list (402)
+0005.223 (0) finding files: blue-mountains-300x200.jpeg: adding to list (403)
+0005.223 (0) finding files: wp_em_events_20160706_223936-5.csv: adding to list (404)
+0005.223 (0) finding files: blog-post-despacho-cynthia-greer.jpg: adding to list (405)
+0005.223 (0) finding files: US-Apukuna-Ayllu-Seqe-Network.pdf: adding to list (406)
+0005.223 (0) finding files: blue-lake-baxley.jpg: adding to list (407)
+0005.223 (0) finding files: ray-Nobriga-headshot-250.jpg: adding to list (408)
+0005.223 (0) finding files: nbeck-shamanic-healing-sm-1-400x250.jpg: adding to list (409)
+0005.223 (0) finding files: nbeck-family-sm-375x250.jpg: adding to list (410)
+0005.223 (0) finding files: 2015-moler_PMT-opt.jpg: adding to list (411)
+0005.223 (0) finding files: Kendra-davis-with-students-horizontal.jpg: adding to list (412)
+0005.223 (0) finding files: Nancy-clearing-Mark-sm.jpg: adding to list (413)
+0005.223 (0) finding files: qollasuyu-totem-101x300.gif: adding to list (414)
+0005.223 (0) finding files: nbeck-apacheta-sm.jpg: adding to list (415)
+0005.223 (0) finding files: AYLLU-bannerjul2016-610x225.jpg: adding to list (416)
+0005.223 (0) finding files: nbeck-apacheta-sm-135x180.jpg: adding to list (417)
+0005.223 (0) finding files: Judys-PMT-group-157x180.jpeg: adding to list (418)
+0005.223 (0) finding files: Peruvian-Shamanism-book-191x300.jpg: adding to list (419)
+0005.223 (0) finding files: n-beck-machu-pichu-sm-400x300.jpg: adding to list (420)
+0005.223 (0) finding files: 2015-dmoler-004-opt-510x382.jpg: adding to list (421)
+0005.223 (0) finding files: Cindy-iro_Quesada-104.jpg: adding to list (422)
+0005.223 (0) finding files: Nancy-Radiating-Star-Being-sm-134x180.jpg: adding to list (423)
+0005.223 (0) finding files: chacana-augwhite.jpg: adding to list (424)
+0005.223 (0) finding files: Machu_Picchu_early_morning-400x250.jpg: adding to list (425)
+0005.223 (0) finding files: 2015_moler_group_opt-610x516.jpg: adding to list (426)
+0005.223 (0) finding files: Autumn-Equinox.jpg: adding to list (427)
+0005.223 (0) finding files: tonga-shell.jpg: adding to list (428)
+0005.223 (0) finding files: Nancy-clearing-Mark-sm-300x284.jpg: adding to list (429)
+0005.223 (0) finding files: 10.15-Nancy-Beck-450-400x250.jpg: adding to list (430)
+0005.223 (0) finding files: Judy-sp-300-1-400x250.jpg: adding to list (431)
+0005.223 (0) finding files: Pachakuti-Mesa.jpg: adding to list (432)
+0005.223 (0) finding files: community-buttons-270x180.jpg: adding to list (433)
+0005.223 (0) finding files: qollasuyu-totem-215x250.gif: adding to list (434)
+0005.223 (0) finding files: 2014: adding to list (435)
+0005.223 (0) finding files: chakanas-THOTH-510x382.jpg: adding to list (436)
+0005.223 (0) finding files: PMT-group-testimonials.jpg: adding to list (437)
+0005.223 (0) finding files: weekly-wisdom-banner-300x99.png: adding to list (438)
+0005.223 (0) finding files: facebook.jpg: adding to list (439)
+0005.223 (0) finding files: Kendra-davis-with-students-horizontal-400x250.jpg: adding to list (440)
+0005.223 (0) finding files: machu-picchu-120x180.jpg: adding to list (441)
+0005.223 (0) finding files: blue-lake-baxley-400x250.jpg: adding to list (442)
+0005.223 (0) finding files: 2015_moler_group_opt.jpg: adding to list (443)
+0005.223 (0) finding files: Judy-PMT-teacher-1-378x250.jpg: adding to list (444)
+0005.223 (0) finding files: Nancy-Radiating-Star-Being-sm-300x284.jpg: adding to list (445)
+0005.223 (0) finding files: daniel-baxter-slider.jpg: adding to list (446)
+0005.223 (0) finding files: weekly-wisdom-banner-510x236.png: adding to list (447)
+0005.224 (0) finding files: AYLLU-bannerjul2016.jpg: adding to list (448)
+0005.224 (0) finding files: revslider: adding to list (449)
+0005.224 (0) finding files: Lopez_headshot_highres250.jpg: adding to list (450)
+0005.224 (0) finding files: AYLLU-bannerjul2016-300x111.jpg: adding to list (451)
+0005.224 (0) finding files: blue-green-meadow2.jpg: adding to list (452)
+0005.224 (0) finding files: Kendra-Davis-350.jpg: adding to list (453)
+0005.224 (0) finding files: daniel-baxter-slider-400x250.jpg: adding to list (454)
+0005.224 (0) finding files: Judys-PMT-group-1-610x698.jpeg: adding to list (455)
+0005.224 (0) finding files: greer-hummingbird.jpg: adding to list (456)
+0005.224 (0) finding files: weekly-wisdom-banner-400x236.png: adding to list (457)
+0005.224 (0) finding files: baxley-mesa-480x382.jpg: adding to list (458)
+0005.224 (0) finding files: 2015-dmolder-opt-400x250-1.jpg: adding to list (459)
+0005.224 (0) finding files: curanderomesa-300x230.jpg: adding to list (460)
+0005.224 (0) finding files: Kendra-Davis-with-students-400x284.jpg: adding to list (461)
+0005.224 (0) finding files: Kendra-davis-Apacheta-768x633-400x284.jpg: adding to list (462)
+0005.224 (0) finding files: shamans-market-peruvian-gifts.jpg: adding to list (463)
+0005.224 (0) finding files: nbeck-shamanic-healing-sm-1-500x382.jpg: adding to list (464)
+0005.224 (0) finding files: Kendra-Davis-with-tree-450x382.jpg: adding to list (465)
+0005.224 (0) finding files: Judy-sp-300-1-139x180.jpg: adding to list (466)
+0005.224 (0) finding files: 2015-moler_PMT-opt-400x284.jpg: adding to list (467)
+0005.224 (0) finding files: machu-picchu-200x300.jpg: adding to list (468)
+0005.224 (0) finding files: blue-lake-baxley-100x50.jpg: adding to list (469)
+0005.224 (0) finding files: Judys-PMT-group-1-510x382.jpeg: adding to list (470)
+0005.224 (0) finding files: blue-green-meadow2-610x225.jpg: adding to list (471)
+0005.224 (0) finding files: Judy-PMT-teacher.jpg: adding to list (472)
+0005.224 (0) finding files: nbeck-apacheta-sm-225x300.jpg: adding to list (473)
+0005.224 (0) finding files: 2015-moler_PMT-opt-271x180.jpg: adding to list (474)
+0005.224 (0) finding files: wp_em_events_20160706_223936-6.csv: adding to list (475)
+0005.224 (0) finding files: Judy-H-pmt-group-400x284.jpg: adding to list (476)
+0005.224 (0) finding files: Greer-Group-1.jpg: adding to list (477)
+0005.224 (0) finding files: nbeck-family-sm-225x300.jpg: adding to list (478)
+0005.224 (0) finding files: Nancy-Beck-PMT-Teacher-2-153x180.jpg: adding to list (479)
+0005.224 (0) finding files: Judy-w-giant-plant-380-1-139x180.jpg: adding to list (480)
+0005.224 (0) finding files: Nancy-clearing-Mark-sm-233x300.jpg: adding to list (481)
+0005.224 (0) finding files: 2015: adding to list (482)
+0005.224 (0) finding files: my-royal-hummingbird-arte-sm-143x180.jpg: adding to list (483)
+0005.224 (0) finding files: Judy-H-pmt-group.jpg: adding to list (484)
+0005.224 (0) finding files: AYLLU-banner2016-2-100x50.jpg: adding to list (485)
+0005.224 (0) finding files: Judy-PMT-teacher-378x382.jpg: adding to list (486)
+0005.224 (0) finding files: Mesas: adding to list (487)
+0005.224 (0) finding files: PMT-group-testimonials-1080x315.jpg: adding to list (488)
+0005.224 (0) finding files: 2015-dmolder-opt-300x195-1.jpg: adding to list (489)
+0005.224 (0) finding files: 2015_moler_group_opt-400x250.jpg: adding to list (490)
+0005.224 (0) finding files: n-beck-machu-pichu-sm-400x300-400x284.jpg: adding to list (491)
+0005.224 (0) finding files: sami-brothers.jpg: adding to list (492)
+0005.224 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.262 (0) Total entities for the zip file: 81 directories, 1900 files (0 skipped as non-modified), 83.2 MB
+0005.266 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.268 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.270 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.272 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 1900 files batched, 486 (486) added so far); re-opening (prior size: 0 KB)
+0005.494 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: size is now: 25.50 MB
+0005.497 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 30801.4 KB/s)
+0005.506 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.84991598129272, normalised_time=0.83113137978992, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=189243727)
+0005.507 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 500 files added (on-disk size: 26149.7 KB)
+0005.510 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 600 files added (on-disk size: 26149.7 KB)
+0005.513 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 700 files added (on-disk size: 26149.7 KB)
+0005.520 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 800 files added (on-disk size: 26149.7 KB)
+0005.523 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 900 files added (on-disk size: 26149.7 KB)
+0005.526 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.1 MB, 1900 files batched, 501 (987) added so far); re-opening (prior size: 26149.7 KB)
+0005.741 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: size is now: 46.60 MB
+0005.744 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1000 files added (on-disk size: 47757.7 KB)
+0005.747 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1100 files added (on-disk size: 47757.7 KB)
+0005.749 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1200 files added (on-disk size: 47757.7 KB)
+0005.751 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1300 files added (on-disk size: 47757.7 KB)
+0005.753 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1400 files added (on-disk size: 47757.7 KB)
+0005.755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13 MB, 1900 files batched, 501 (1488) added so far); re-opening (prior size: 47757.7 KB)
+0005.936 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: size is now: 59.70 MB
+0005.945 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1500 files added (on-disk size: 61176.2 KB)
+0005.949 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1600 files added (on-disk size: 61176.2 KB)
+0005.952 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1700 files added (on-disk size: 61176.2 KB)
+0005.954 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1800 files added (on-disk size: 61176.2 KB)
+0005.956 (0) Zip: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: 1900 files added (on-disk size: 61176.2 KB)
+0006.178 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip.tmp: size is now: 82.10 MB
+0006.548 (0) Created uploads zip (0) - 84113.8 KB in 1.3 s (63669.9 KB/s) (SHA1 checksum: 9515c8092d00b08401b1e8055a5cbcbac97e9ac5)
+0006.551 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.552 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.552 (0) Looking for candidates to back up in: /var/www/vhosts/heartofthehealer.org/httpdocs/wp-content
+0006.553 (0) finding files: index.php: adding to list (1)
+0006.554 (0) finding files: plugins: skipping: this is the plugins directory
+0006.554 (0) finding files: upgrade: skipping: excluded by options
+0006.555 (0) finding files: themes: skipping: this is the themes directory
+0006.556 (0) finding files: cache: skipping: excluded by options
+0006.556 (0) finding files: updraft: skipping: this is the updraft directory
+0006.557 (0) finding files: w3tc-config: adding to list (2)
+0006.558 (0) finding files: uploads: skipping: this is the uploads directory
+0006.558 (0) finding files: advanced-cache.php: adding to list (3)
+0006.561 (0) Total entities for the zip file: 1 directories, 5 files (0 skipped as non-modified), 0 MB
+0006.574 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip.tmp: size is now: 0.00 MB
+0006.578 (0) Created others zip (0) - 6.2 KB in 0 s (335.8 KB/s) (SHA1 checksum: 715ba2f208c4e70e0a6d91b584891cac924ab8a5)
+0006.583 (0) Saving backup status to database (elements: 8)
+0006.586 (0) Beginning creation of database dump (WordPress DB)
+0006.589 (0) Testing: /usr/bin/mysqldump
+0006.612 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0006.620 (0) Table light144_options: Total expected rows (approximate): 626
+0006.649 (0) Table light144_options: Total rows added: 631 in 0.03 seconds
+0006.651 (0) Table light144_options: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_options.table.gz - 71.2 KB)
+0006.654 (0) Table light144_users: Total expected rows (approximate): 3
+0006.657 (0) Table light144_users: Total rows added: 3 in 0.00 seconds
+0006.658 (0) Table light144_users: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_users.table.gz - 0.7 KB)
+0006.662 (0) Table light144_usermeta: Total expected rows (approximate): 79
+0006.665 (0) Table light144_usermeta: Total rows added: 79 in 0.00 seconds
+0006.667 (0) Table light144_usermeta: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_usermeta.table.gz - 2.3 KB)
+0006.670 (0) Table light144_commentmeta: Total expected rows (approximate): 0
+0006.671 (0) Table light144_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.672 (0) Table light144_commentmeta: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_commentmeta.table.gz - 0.4 KB)
+0006.675 (0) Table light144_comments: Total expected rows (approximate): 0
+0006.678 (0) Table light144_comments: Total rows added: 0 in 0.00 seconds
+0006.679 (0) Table light144_comments: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_comments.table.gz - 0.5 KB)
+0006.681 (0) Table light144_links: Total expected rows (approximate): 0
+0006.683 (0) Table light144_links: Total rows added: 0 in 0.00 seconds
+0006.684 (0) Table light144_links: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_links.table.gz - 0.4 KB)
+0006.688 (0) Table light144_postmeta: Total expected rows (approximate): 42267
+0006.848 (0) Table light144_postmeta: binary mysqldump finished (writes: 34) in 0.16 seconds
+0006.850 (0) Table light144_postmeta: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_postmeta.table.gz - 363.5 KB)
+0006.853 (0) Table light144_posts: Total expected rows (approximate): 1264
+0006.990 (0) Table light144_posts: Total rows added: 1336 in 0.14 seconds
+0006.992 (0) Table light144_posts: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_posts.table.gz - 449.4 KB)
+0006.995 (0) Table light144_term_relationships: Total expected rows (approximate): 1554
+0007.004 (0) Table light144_term_relationships: Total rows added: 1554 in 0.01 seconds
+0007.005 (0) Table light144_term_relationships: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_term_relationships.table.gz - 4.4 KB)
+0007.008 (0) Table light144_term_taxonomy: Total expected rows (approximate): 85
+0007.010 (0) Table light144_term_taxonomy: Total rows added: 85 in 0.00 seconds
+0007.011 (0) Table light144_term_taxonomy: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_term_taxonomy.table.gz - 1.1 KB)
+0007.015 (0) Table light144_termmeta: Total expected rows (approximate): 0
+0007.016 (0) Table light144_termmeta: Total rows added: 0 in 0.00 seconds
+0007.017 (0) Table light144_termmeta: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_termmeta.table.gz - 0.4 KB)
+0007.021 (0) Table light144_terms: Total expected rows (approximate): 85
+0007.023 (0) Table light144_terms: Total rows added: 85 in 0.00 seconds
+0007.024 (0) Table light144_terms: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_terms.table.gz - 1.6 KB)
+0007.027 (0) Table light144_em_bookings: Total expected rows (approximate): 0
+0007.029 (0) Table light144_em_bookings: Total rows added: 0 in 0.00 seconds
+0007.030 (0) Table light144_em_bookings: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_bookings.table.gz - 0.4 KB)
+0007.033 (0) Table light144_em_events: Total expected rows (approximate): 290
+0007.057 (0) Table light144_em_events: Total rows added: 290 in 0.02 seconds
+0007.059 (0) Table light144_em_events: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_events.table.gz - 56.7 KB)
+0007.069 (0) Table light144_em_events_copy: Total expected rows (approximate): 1
+0007.074 (0) Table light144_em_events_copy: Total rows added: 1 in 0.00 seconds
+0007.076 (0) Table light144_em_events_copy: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_events_copy.table.gz - 1 KB)
+0007.079 (0) Table light144_em_locations: Total expected rows (approximate): 39
+0007.081 (0) Table light144_em_locations: Total rows added: 39 in 0.00 seconds
+0007.083 (0) Table light144_em_locations: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_locations.table.gz - 2.7 KB)
+0007.086 (0) Table light144_em_meta: Total expected rows (approximate): 34
+0007.089 (0) Table light144_em_meta: Total rows added: 34 in 0.00 seconds
+0007.090 (0) Table light144_em_meta: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_meta.table.gz - 0.8 KB)
+0007.093 (0) Table light144_em_tickets: Total expected rows (approximate): 0
+0007.095 (0) Table light144_em_tickets: Total rows added: 0 in 0.00 seconds
+0007.096 (0) Table light144_em_tickets: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_tickets.table.gz - 0.4 KB)
+0007.099 (0) Table light144_em_tickets_bookings: Total expected rows (approximate): 0
+0007.100 (0) Table light144_em_tickets_bookings: Total rows added: 0 in 0.00 seconds
+0007.101 (0) Table light144_em_tickets_bookings: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_tickets_bookings.table.gz - 0.3 KB)
+0007.104 (0) Table light144_et_bloom_stats: Total expected rows (approximate): 78907
+0007.432 (0) Table light144_et_bloom_stats: binary mysqldump finished (writes: 40) in 0.32 seconds
+0007.435 (0) Table light144_et_bloom_stats: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_et_bloom_stats.table.gz - 814 KB)
+0007.439 (0) Table light144_et_social_stats: Total expected rows (approximate): 0
+0007.441 (0) Table light144_et_social_stats: Total rows added: 0 in 0.00 seconds
+0007.443 (0) Table light144_et_social_stats: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_et_social_stats.table.gz - 0.4 KB)
+0007.446 (0) Table light144_mgmlp_folders: Total expected rows (approximate): 273
+0007.449 (0) Table light144_mgmlp_folders: Total rows added: 273 in 0.00 seconds
+0007.451 (0) Table light144_mgmlp_folders: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_mgmlp_folders.table.gz - 1 KB)
+0007.454 (0) Table light144_participants_database: Total expected rows (approximate): 248
+0007.467 (0) Table light144_participants_database: Total rows added: 248 in 0.01 seconds
+0007.470 (0) Table light144_participants_database: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_participants_database.table.gz - 20.6 KB)
+0007.473 (0) Table light144_participants_database_fields: Total expected rows (approximate): 15
+0007.476 (0) Table light144_participants_database_fields: Total rows added: 15 in 0.00 seconds
+0007.482 (0) Table light144_participants_database_fields: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_participants_database_fields.table.gz - 1 KB)
+0007.493 (0) Table light144_participants_database_groups: Total expected rows (approximate): 4
+0007.499 (0) Table light144_participants_database_groups: Total rows added: 4 in 0.00 seconds
+0007.500 (0) Table light144_participants_database_groups: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_participants_database_groups.table.gz - 0.5 KB)
+0007.504 (0) Table light144_revslider_css: Total expected rows (approximate): 154
+0007.510 (0) Table light144_revslider_css: Total rows added: 154 in 0.01 seconds
+0007.511 (0) Table light144_revslider_css: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_css.table.gz - 7 KB)
+0007.515 (0) Table light144_revslider_layer_animations: Total expected rows (approximate): 4
+0007.526 (0) Table light144_revslider_layer_animations: Total rows added: 4 in 0.00 seconds
+0007.528 (0) Table light144_revslider_layer_animations: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_layer_animations.table.gz - 0.6 KB)
+0007.531 (0) Table light144_revslider_navigations: Total expected rows (approximate): 0
+0007.533 (0) Table light144_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0007.533 (0) Table light144_revslider_navigations: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_navigations.table.gz - 0.3 KB)
+0007.537 (0) Table light144_revslider_sliders: Total expected rows (approximate): 2
+0007.539 (0) Table light144_revslider_sliders: Total rows added: 2 in 0.00 seconds
+0007.540 (0) Table light144_revslider_sliders: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_sliders.table.gz - 3.5 KB)
+0007.543 (0) Table light144_revslider_slides: Total expected rows (approximate): 16
+0007.561 (0) Table light144_revslider_slides: Total rows added: 25 in 0.02 seconds
+0007.563 (0) Table light144_revslider_slides: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_slides.table.gz - 33.7 KB)
+0007.566 (0) Table light144_revslider_static_slides: Total expected rows (approximate): 0
+0007.568 (0) Table light144_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0007.569 (0) Table light144_revslider_static_slides: finishing file (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_static_slides.table.gz - 0.3 KB)
+0007.572 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_options.table.gz (1/31): adding to final database dump
+0007.590 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_users.table.gz (2/31): adding to final database dump
+0007.592 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_usermeta.table.gz (3/31): adding to final database dump
+0007.593 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_commentmeta.table.gz (4/31): adding to final database dump
+0007.594 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_comments.table.gz (5/31): adding to final database dump
+0007.595 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_links.table.gz (6/31): adding to final database dump
+0007.596 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_postmeta.table.gz (7/31): adding to final database dump
+0007.711 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_posts.table.gz (8/31): adding to final database dump
+0007.815 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_term_relationships.table.gz (9/31): adding to final database dump
+0007.819 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_term_taxonomy.table.gz (10/31): adding to final database dump
+0007.821 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_termmeta.table.gz (11/31): adding to final database dump
+0007.822 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_terms.table.gz (12/31): adding to final database dump
+0007.823 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_bookings.table.gz (13/31): adding to final database dump
+0007.824 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_events.table.gz (14/31): adding to final database dump
+0007.837 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_events_copy.table.gz (15/31): adding to final database dump
+0007.840 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_locations.table.gz (16/31): adding to final database dump
+0007.842 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_meta.table.gz (17/31): adding to final database dump
+0007.843 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_tickets.table.gz (18/31): adding to final database dump
+0007.843 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_em_tickets_bookings.table.gz (19/31): adding to final database dump
+0007.844 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_et_bloom_stats.table.gz (20/31): adding to final database dump
+0008.061 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_et_social_stats.table.gz (21/31): adding to final database dump
+0008.062 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_mgmlp_folders.table.gz (22/31): adding to final database dump
+0008.063 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_participants_database.table.gz (23/31): adding to final database dump
+0008.070 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_participants_database_fields.table.gz (24/31): adding to final database dump
+0008.071 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_participants_database_groups.table.gz (25/31): adding to final database dump
+0008.072 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_css.table.gz (26/31): adding to final database dump
+0008.076 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_layer_animations.table.gz (27/31): adding to final database dump
+0008.078 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_navigations.table.gz (28/31): adding to final database dump
+0008.079 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_sliders.table.gz (29/31): adding to final database dump
+0008.080 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_slides.table.gz (30/31): adding to final database dump
+0008.094 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db-table-light144_revslider_static_slides.table.gz (31/31): adding to final database dump
+0008.095 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz: finished writing out complete database file (1808 KB)
+0008.110 (0) Total database tables backed up: 31 (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz, size: 1881681, checksum (SHA1): 24ab5731bb70975847cc4236733aba5adb9af279)
+0008.122 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.123 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.124 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.124 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.125 (0) backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.126 (0) Saving backup history. Total backup size: 113.3 MB
+0008.129 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.131 (0) Cloud backup selection (1/1): dropbox (last)
+0008.134 (0) Beginning dispatch of backup to remote (dropbox)
+0008.135 (0) Dropbox: begin cloud upload
+0008.147 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0008.888 (0) Dropbox quota usage: normal=1826.1 MB, shared=27.9 MB, total=2560 MB, available=706.1 MB
+0008.890 (0) Dropbox: Attempt to upload: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip to: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip
+0009.830 (0) Dropbox chunked upload: 4.6 % uploaded (AAAAAAAAAvnbb93IDkmH-A, 1048576, 5120 KB)
+0012.277 (0) Dropbox chunked upload: 27.4 % uploaded (AAAAAAAAAvnbb93IDkmH-A, 6291456, 10240 KB)
+0016.997 (0) Dropbox chunked upload: 73.2 % uploaded (AAAAAAAAAvnbb93IDkmH-A, 16777216, 10240 KB)
+0019.093 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAvnbb93IDkmH-A, 22923757, 10240 KB)
+0020.335 (0) Recording as successfully uploaded: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip (2dd18805b17ff74fc8f0ff2f439a6386)
+0020.345 (0) Deleting local file: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip: OK
+0020.346 (0) Dropbox: File upload success (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-plugins.zip): 22386 KB in 11s (1954 KB/s)
+0020.807 (0) Dropbox quota usage: normal=1847.9 MB, shared=27.9 MB, total=2560 MB, available=684.2 MB
+0020.809 (0) Dropbox: Attempt to upload: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip to: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip
+0023.357 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAvq5CPMSnXCjXA, 7868502, 10240 KB)
+0025.176 (0) Recording as successfully uploaded: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip (3d83f5c05f27a4b546ba41c90e2011d8)
+0025.180 (0) Deleting local file: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip: OK
+0025.181 (0) Dropbox: File upload success (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-themes.zip): 7684 KB in 4s (1757 KB/s)
+0025.622 (0) Dropbox quota usage: normal=1855.4 MB, shared=27.9 MB, total=2560 MB, available=676.7 MB
+0025.624 (0) Dropbox: Attempt to upload: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip to: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip
+0028.987 (0) Dropbox chunked upload: 12.2 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 10485760, 10240 KB)
+0032.955 (0) Dropbox chunked upload: 24.3 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 20971520, 10240 KB)
+0036.279 (0) Dropbox chunked upload: 36.5 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 31457280, 10240 KB)
+0043.050 (0) Dropbox chunked upload: 48.7 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 41943040, 10240 KB)
+0047.367 (0) Dropbox chunked upload: 60.9 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 52428800, 10240 KB)
+0052.770 (0) Dropbox chunked upload: 73 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 62914560, 10240 KB)
+0058.336 (0) Dropbox chunked upload: 85.2 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 73400320, 10240 KB)
+0063.798 (0) Dropbox chunked upload: 97.4 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 83886080, 10240 KB)
+0066.584 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAvv34_W4QjqXzA, 86132555, 10240 KB)
+0069.343 (0) Recording as successfully uploaded: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip (e8da7b7b9385d03d2bada9ccb367df94)
+0069.366 (0) Deleting local file: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip: OK
+0069.368 (0) Dropbox: File upload success (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-uploads.zip): 84113 KB in 43s (1922 KB/s)
+0069.794 (0) Dropbox quota usage: normal=1937.6 MB, shared=27.9 MB, total=2560 MB, available=594.6 MB
+0069.796 (0) Dropbox: Attempt to upload: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip to: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip
+0070.378 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAvwqZNIPcYlldQ, 6362, 10240 KB)
+0071.561 (0) Recording as successfully uploaded: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip (dac528c942bed2280d4406784f945d2c)
+0071.564 (0) Deleting local file: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip: OK
+0071.566 (0) Dropbox: File upload success (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-others.zip): 6 KB in 1s (3 KB/s)
+0072.034 (0) Dropbox quota usage: normal=1937.6 MB, shared=27.9 MB, total=2560 MB, available=594.6 MB
+0072.036 (0) Dropbox: Attempt to upload: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz to: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz
+0072.968 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAv1hPFmc2de_AQ, 1881681, 10240 KB)
+0074.404 (0) Recording as successfully uploaded: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz (4c3d714e40c312c399e429f0a39a5649)
+0074.407 (0) Deleting local file: backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz: OK
+0074.409 (0) Dropbox: File upload success (backup_2016-08-31-1633_The_Heart_of_The_Healer_3f95f5643156-db.gz): 1837 KB in 2s (774 KB/s)
+0074.410 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=12, retain_db=12
+0074.411 (0) Number of backup sets in history: 14; groups (db): 1
+0074.412 (0) Examining (for databases) backup set with group_id=0, nonce=3f95f5643156, datestamp=1472675638 (Aug 31 2016 20:33:58)
+0074.413 (0) This backup set is the backup set just made, so will not be deleted.
+0074.414 (0) Examining (for databases) backup set with group_id=0, nonce=5ba843cbf094, datestamp=1472571354 (Aug 30 2016 15:35:54)
+0074.415 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.416 (0) Examining (for databases) backup set with group_id=0, nonce=f29d7ed470c2, datestamp=1472566342 (Aug 30 2016 14:12:22)
+0074.416 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.417 (0) Examining (for databases) backup set with group_id=0, nonce=96ea5c95eed6, datestamp=1472240664 (Aug 26 2016 19:44:24)
+0074.418 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.419 (0) Examining (for databases) backup set with group_id=0, nonce=d617a9c39a02, datestamp=1472232244 (Aug 26 2016 17:24:04)
+0074.420 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.420 (0) Examining (for databases) backup set with group_id=0, nonce=be28f898add1, datestamp=1472070646 (Aug 24 2016 20:30:46)
+0074.421 (0) Examining (for databases) backup set with group_id=0, nonce=4c451a478008, datestamp=1471880453 (Aug 22 2016 15:40:53)
+0074.422 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.423 (0) Examining (for databases) backup set with group_id=0, nonce=440f3dd112e0, datestamp=1471465837 (Aug 17 2016 20:30:37)
+0074.424 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.424 (0) Examining (for databases) backup set with group_id=0, nonce=c6f5e6831b9a, datestamp=1471446420 (Aug 17 2016 15:07:00)
+0074.426 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.426 (0) Examining (for databases) backup set with group_id=0, nonce=f4c7f1b079ef, datestamp=1471020226 (Aug 12 2016 16:43:46)
+0074.427 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.428 (0) Examining (for databases) backup set with group_id=0, nonce=ec7ea76ea5ac, datestamp=1470953613 (Aug 11 2016 22:13:33)
+0074.429 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.430 (0) Examining (for databases) backup set with group_id=0, nonce=eeabaac68bb0, datestamp=1470944254 (Aug 11 2016 19:37:34)
+0074.430 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.431 (0) Examining (for databases) backup set with group_id=0, nonce=aa5f421ef916, datestamp=1470932860 (Aug 11 2016 16:27:40)
+0074.432 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.433 (0) Examining (for databases) backup set with group_id=0, nonce=66819323b4d1, datestamp=1470928655 (Aug 11 2016 15:17:35)
+0074.433 (0) 1470928655: db: this set includes a database (backup_2016-08-11-1117_The_Heart_of_The_Healer_66819323b4d1-db.gz); db count is now 12
+0074.434 (0) 1470928655: db: over retain limit (12); will delete this database
+0074.435 (0) Delete file: backup_2016-08-11-1117_The_Heart_of_The_Healer_66819323b4d1-db.gz, service=dropbox
+0074.436 (0) Dropbox: request deletion: backup_2016-08-11-1117_The_Heart_of_The_Healer_66819323b4d1-db.gz
+0075.063 (0) Dropbox: delete succeeded
+0075.066 (0) This backup set is now empty; will remove from history
+0075.067 (0) Deleting log file (log.66819323b4d1.txt)
+0075.068 (0) Number of backup sets in history: 13; groups (files): 1
+0075.069 (0) Examining (for files) backup set with nonce=3f95f5643156, datestamp=1472675638 (Aug 31 2016 20:33:58)
+0075.070 (0) This backup set is the backup set just made, so will not be deleted.
+0075.070 (0) This backup set is the backup set just made, so will not be deleted.
+0075.071 (0) This backup set is the backup set just made, so will not be deleted.
+0075.071 (0) This backup set is the backup set just made, so will not be deleted.
+0075.071 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.072 (0) Examining (for files) backup set with nonce=5ba843cbf094, datestamp=1472571354 (Aug 30 2016 15:35:54)
+0075.073 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.073 (0) Examining (for files) backup set with nonce=f29d7ed470c2, datestamp=1472566342 (Aug 30 2016 14:12:22)
+0075.074 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.075 (0) Examining (for files) backup set with nonce=96ea5c95eed6, datestamp=1472240664 (Aug 26 2016 19:44:24)
+0075.076 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.077 (0) Examining (for files) backup set with nonce=d617a9c39a02, datestamp=1472232244 (Aug 26 2016 17:24:04)
+0075.078 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.079 (0) Examining (for files) backup set with nonce=be28f898add1, datestamp=1472070646 (Aug 24 2016 20:30:46)
+0075.080 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0075.081 (0) Examining (for files) backup set with nonce=4c451a478008, datestamp=1471880453 (Aug 22 2016 15:40:53)
+0075.082 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.083 (0) Examining (for files) backup set with nonce=440f3dd112e0, datestamp=1471465837 (Aug 17 2016 20:30:37)
+0075.084 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.085 (0) Examining (for files) backup set with nonce=c6f5e6831b9a, datestamp=1471446420 (Aug 17 2016 15:07:00)
+0075.086 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.087 (0) Examining (for files) backup set with nonce=f4c7f1b079ef, datestamp=1471020226 (Aug 12 2016 16:43:46)
+0075.088 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.089 (0) Examining (for files) backup set with nonce=ec7ea76ea5ac, datestamp=1470953613 (Aug 11 2016 22:13:33)
+0075.090 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.090 (0) Examining (for files) backup set with nonce=eeabaac68bb0, datestamp=1470944254 (Aug 11 2016 19:37:34)
+0075.091 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0075.093 (0) Examining (for files) backup set with nonce=aa5f421ef916, datestamp=1470932860 (Aug 11 2016 16:27:40)
+0075.094 (0) plugins: over retain limit (12); will delete this file entity
+0075.095 (0) themes: over retain limit (12); will delete this file entity
+0075.096 (0) uploads: over retain limit (12); will delete this file entity
+0075.097 (0) others: over retain limit (12); will delete this file entity
+0075.098 (0) Delete file: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-plugins.zip, service=dropbox
+0075.099 (0) Delete file: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-themes.zip, service=dropbox
+0075.100 (0) Delete file: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-uploads.zip, service=dropbox
+0075.100 (0) Delete file: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-others.zip, service=dropbox
+0075.102 (0) Dropbox: request deletion: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-plugins.zip
+0075.676 (0) Dropbox: delete succeeded
+0075.678 (0) Dropbox: request deletion: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-themes.zip
+0076.389 (0) Dropbox: delete succeeded
+0076.390 (0) Dropbox: request deletion: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-uploads.zip
+0076.893 (0) Dropbox: delete succeeded
+0076.895 (0) Dropbox: request deletion: backup_2016-08-11-1227_The_Heart_of_The_Healer_aa5f421ef916-others.zip
+0077.510 (0) Dropbox: delete succeeded
+0077.513 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0077.513 (0) Retain: saving new backup history (sets now: 13) and finishing retain operation
+0077.517 (0) Resume backup (3f95f5643156, 0): finish run
+0077.520 (0) Decremented the semaphore (fd) by 1
+0077.521 (0) Semaphore (fd) unlocked
+0077.522 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0077.526 (0) No email will/can be sent - the user has not configured an email address.
+0077.526 (0) The backup apparently succeeded and is now complete

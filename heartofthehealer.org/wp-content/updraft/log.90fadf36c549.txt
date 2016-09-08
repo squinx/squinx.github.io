@@ -1,0 +1,93 @@
+0000.003 () Opened log file at time: Thu, 25 Aug 2016 20:36:43 +0000 on http://heartofthehealer.org
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.17 WP: 4.6 PHP: 7.0.9 (Linux omq 4.5.5-x86_64-linode69 #3 SMP Fri May 20 15:25:13 EDT 2016 x86_64) MySQL: 5.6.32 WPLANG: en_US Server: Apache/2.4.6 (CentOS) mod_fcgid/2.3.9 PHP/7.0.9 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.9M | 14M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 3450.8 MB
+0000.004 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.022 () Entity: db
+0000.022 () restore_backup(backup_file=backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.022 () Unpacking backup...
+0000.024 () Database successfully unpacked
+0000.025 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.025 () Using direct MySQL access; value of use_mysqli is: 1
+0000.031 () Tried to raise max_allowed_packet from 4 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.031 () Max packet size: 4 MB
+0000.031 () Entering maintenance mode
+0000.031 () Enabling Maintenance mode&#8230;
+0000.032 () <strong>Backup of:</strong> http://heartofthehealer.org
+0000.032 () Content URL: http://heartofthehealer.org/wp-content
+0000.032 () Uploads URL: http://heartofthehealer.org/wp-content/uploads
+0000.032 () Old table prefix: light144_
+0000.032 () Site information: multisite=0
+0000.033 () New table prefix: light144_
+0000.038 () Restoring table (InnoDB): light144_options
+0000.112 () Restoring prior UD configuration (table: light144_options; keys: 3)
+0000.118 () Elegant themes theme builder plugin data detected: resetting temporary folder
+0000.120 () Restoring table (InnoDB): light144_users
+0000.131 () Restoring table (InnoDB): light144_usermeta
+0000.145 () Restoring table (InnoDB): light144_commentmeta
+0000.156 () Restoring table (InnoDB): light144_comments
+0000.167 () Restoring table (InnoDB): light144_links
+0000.189 () Restoring table (InnoDB): light144_postmeta
+0000.794 () Restoring table (InnoDB): light144_posts
+0001.139 () Database queries processed: 50 in 1.11 seconds
+0001.143 () Restoring table (InnoDB): light144_term_relationships
+0001.193 () Restoring table (InnoDB): light144_term_taxonomy
+0001.206 () Restoring table (InnoDB): light144_termmeta
+0001.214 () Restoring table (InnoDB): light144_terms
+0001.233 () Restoring table (InnoDB): light144_em_bookings
+0001.247 () Restoring table (InnoDB): light144_em_events
+0001.310 () Restoring table (InnoDB): light144_em_events_copy
+0001.323 () Restoring table (InnoDB): light144_em_locations
+0001.341 () Restoring table (InnoDB): light144_em_meta
+0001.352 () Restoring table (InnoDB): light144_em_tickets
+0001.360 () Restoring table (InnoDB): light144_em_tickets_bookings
+0001.376 () Restoring table (InnoDB): light144_et_bloom_stats
+0002.227 () Database queries processed: 100 in 2.20 seconds
+0002.232 () Restoring table (InnoDB): light144_et_social_stats
+0002.238 () Restoring table (MyISAM): light144_mgmlp_folders
+0002.253 () Restoring table (InnoDB): light144_participants_database
+0002.277 () Restoring table (InnoDB): light144_participants_database_fields
+0002.287 () Restoring table (InnoDB): light144_participants_database_groups
+0002.295 () Restoring table (InnoDB): light144_revslider_css
+0002.320 () Restoring table (InnoDB): light144_revslider_layer_animations
+0002.328 () Restoring table (InnoDB): light144_revslider_navigations
+0002.335 () Restoring table (InnoDB): light144_revslider_sliders
+0002.345 () Restoring table (InnoDB): light144_revslider_slides
+0002.415 () Restoring table (InnoDB): light144_revslider_static_slides
+0002.419 () Unlocking database and leaving maintenance mode
+0002.420 () Disabling Maintenance mode&#8230;
+0002.420 () Finished: lines processed: 141 in 2.39 seconds
+0002.420 () Cleaning up rubbish...
+0002.427 () Entity: plugins
+0002.427 () restore_backup(backup_file=backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:64:"/var/www/vhosts/heartofthehealer.org/httpdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0002.427 () Unpacking backup... (backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-plugins.zip, 21.9 Mb)
+0003.255 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.256 () Moving old data: can potentially use wp_filesystem method / -old
+0003.256 () Moving old data out of the way...
+0003.363 () Top-level entities being moved: index.php, easy-wp-smtp, bloom, participants-database, elegant-themes-updater, updraftplus, wordpress-importer, wp-smushit, w3-total-cache, events-manager, Remove-Anchors-from-PDB-List-Pagination-Links.php, revslider
+0003.365 () Moving unpacked backup into place...
+0003.461 () Top-level entities being moved: index.php, easy-wp-smtp, bloom, participants-database, elegant-themes-updater, updraftplus, wordpress-importer, wp-smushit, w3-total-cache, events-manager, Remove-Anchors-from-PDB-List-Pagination-Links.php, revslider
+0003.464 () Cleaning up rubbish...
+0003.467 () Entity: themes
+0003.467 () restore_backup(backup_file=backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-themes.zip, type=themes, info=a:2:{s:4:"path";s:63:"/var/www/vhosts/heartofthehealer.org/httpdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0003.467 () Unpacking backup... (backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-themes.zip, 7.3 Mb)
+0003.682 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.682 () Moving old data: can potentially use wp_filesystem method / -old
+0003.682 () Moving old data out of the way...
+0003.695 () Top-level entities being moved: index.php, Divi, divi-child, twentyfourteen
+0003.695 () Moving unpacked backup into place...
+0003.707 () Top-level entities being moved: index.php, Divi, divi-child, twentyfourteen
+0003.707 () Cleaning up rubbish...
+0003.712 () Entity: uploads
+0003.712 () restore_backup(backup_file=backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:64:"/var/www/vhosts/heartofthehealer.org/httpdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0003.712 () Unpacking backup... (backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-uploads.zip, 79.9 Mb)
+0004.159 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.160 () Moving old data: can potentially use wp_filesystem method / -old
+0004.160 () Moving old data out of the way...
+0004.211 () Moving unpacked backup into place...
+0004.260 () Cleaning up rubbish...
+0004.266 () Entity: others
+0004.266 () restore_backup(backup_file=backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-others.zip, type=others, info=a:2:{s:4:"path";s:56:"/var/www/vhosts/heartofthehealer.org/httpdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0004.266 () Unpacking backup... (backup_2016-08-24-1630_The_Heart_of_The_Healer_be28f898add1-others.zip, 0 Mb)
+0004.267 () Cleaning up rubbish...
+0004.272 () Restore successful!
+0004.272 () Restore successful

@@ -1,0 +1,4 @@
+AuthUserFile /var/www/vhosts/dev.heartofthehealer.org/httpdocs/.htpasswd
+AuthName "Auth required"
+AuthType Basic
+Require valid-user
